@@ -38,7 +38,7 @@ nav {
     justify-content: space-between;
     padding: 5pt;
     background-color: black;
-    color: white;
+    color: #98E0e8;
 }
 
 nav img {
@@ -82,7 +82,7 @@ nav h2 {
 }
 
 
-.profile img{
+.profile_pic {
     width: 300px;
     height: auto;
     border-radius: 50%;
@@ -104,3 +104,108 @@ nav h2 {
     border-radius: 10pt;
     border: 10pt double white
 }
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 15rem;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.link {
+    color: #98E0e8;
+    text-decoration: none;
+}
+
+.dash {
+    font-weight: bolder;
+    margin: 0pt 3pt;
+}
+
+#contact {
+    cursor: pointer;
+}
+
+.message {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.75);
+}
+
+.contact_box {
+    position: fixed;
+    width: 450px;
+    height: 480px;
+    top: 50%;
+    left: 50%;
+    margin-top: -240px;
+    margin-left: -225px;
+    background-color: white;
+    padding: 1.54rem 2rem 2rem;
+    border-radius: 20pt;
+    border: 10pt double black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem;
+    margin: auto;
+}
+
+form h1 {
+    text-align: center;
+    border-bottom: 3pt solid #98E0e8;
+    margin: 0rem;
+    margin-bottom: 1rem;
+}
+
+input, textarea {
+    font-size: 1rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    outline: none;
+    padding: 0.25rem 0.5rem;
+}
+
+input {
+    height: 2.25rem;
+    width: 16rem;
+    margin:  .5rem 0rem .5rem 1rem;
+}
+
+textarea {
+    margin-top: 0.25rem;
+}
+
+.form_group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    width: 5rem;
+}
+
+button {
+    margin: 1.25rem auto;
+    padding: .25rem;
+    width: 5rem;
+    background-color: #98E0e8;
+    border-radius: 10pt;
+    border: 1pt solid black;
+    outline: none;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+

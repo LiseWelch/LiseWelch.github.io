@@ -2,6 +2,8 @@
 <html lang="en">
     <head>
         <title>Lise Welch</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="index.js"></script>
         <link rel="stylesheet" type="text/css" href="index.css">
         <link rel="icon" type="image/png" sizes="32x32" href="Logo.png">
     </head>
@@ -14,8 +16,26 @@
             <h2>creative fullstack developer</h2>
         </nav>
         <div class="content">
+            <div class="message">
+                <div class="contact_box">
+                    <form>
+                        <h1>Contact Form</h1>
+                        <div class="form_group">
+                            <label>Name:</label>
+                            <input type="text">
+                        </div>
+                        <div class="form_group">
+                            <label>Email:</label>
+                            <input type="email">
+                        </div>
+                        <label>Message:</label>
+                        <textarea rows="8"></textarea>
+                        <button id="send">Send</button>
+                    </form>
+                </div>
+            </div>
             <div class="profile">
-                <img src="profilepic.jpg" alt="Profile Picture">
+                <img class="profile_pic" src="profilepic.jpg" alt="Profile Picture">
                 <div class="summary">
                     <p>Hello! I'm an extremely driven and creative Full Stack Developer
                         who is currently open for a career opportunities as a front-end or
@@ -24,7 +44,15 @@
                         Boise, ID that teaches 3 full stacks in 3 months. I'm capable of
                         learning new technologies very quickly and am always looking for 
                         opportunities to further expand my skills and grow as a developer.</p>
+                        <p class="links">
+                            <a class="link" href="https://www.linkedin.com/in/lisewelch/">LinkedIn</a> |
+                            <a class="link" href="https://github.com/LiseWelch">GitHub</a> |
+                            <a class="link" id="contact">Contact</a>
+                        </p>
                 </div>
+            </div>
+            <div class="projects">
+
             </div>
         </div>
     </body>
