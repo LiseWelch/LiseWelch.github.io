@@ -19,7 +19,7 @@ body {
 body {
     margin: 0;
     -webkit-text-size-adjust: 100%;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 400;
     font-family: serif;
     line-height: 1.5;
@@ -64,4 +64,43 @@ nav h2 {
     font-weight: 100;
     font-size: 20pt;
     font-style: italic;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.profile img{
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    border: 10pt double white;
+    padding: 4.5pt;
+    background-color: black;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 50rem;
+    margin: 2rem;
+    padding: 1.5rem;
+    color: white;
+    background-color: black;
+    border-radius: 10pt;
+    border: 10pt double white
 }
